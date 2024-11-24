@@ -4,7 +4,7 @@
 $roxo-claro: #b3a0d3;
 $roxo-medio: #8e66b4;
 $roxo-escuro: #5e3a88;
-$cinza-claro: #f7f7f7;   
+$cinza-claro: #f7f7f7;
 $branco: #ffffff;
 $azul-claro: #4c99e6;
 
@@ -16,20 +16,21 @@ $azul-claro: #4c99e6;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: $cinza-claro;
   color: $roxo-escuro;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
-// Header
+
 header {
   background-color: $roxo-claro;
   padding: 20px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
+  
 }
 
 .logo {
@@ -66,7 +67,7 @@ header {
   }
 }
 
-// Seção Home
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -117,11 +118,11 @@ header {
   }
 }
 
-// Seção Sobre
+
 .sobre {
   display: flex;
   padding: 50px 20px;
-  background-color: $cinza-claro;
+  background-color: $f7f7f7;
 
   &-img {
     width: 40%;
@@ -146,7 +147,7 @@ header {
   }
 }
 
-// Seção Serviços
+
 .servico {
   padding: 50px 20px;
   background-color: $branco;
@@ -194,10 +195,10 @@ header {
   }
 }
 
-// Seção Projetos
+
 .projeto {
   padding: 50px 20px;
-  background-color: $cinza-claro;
+  background-color: $f7f7f7;
 
   .heading {
     text-align: center;
@@ -256,7 +257,7 @@ header {
   }
 }
 
-// Seção Contato
+
 .contato {
   padding: 50px 20px;
   background-color: $branco;
@@ -329,7 +330,7 @@ header {
   }
 }
 
-// Footer
+
 .footer {
   background-color: $roxo-claro;
   padding: 30px 20px;
